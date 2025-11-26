@@ -1,0 +1,136 @@
+[
+{
+    "name": "default",
+    "description": "",
+    "is_default": true,
+    "is_pinned": false,
+    "pinned_order": 0,
+    "dashboard_static_filter": [
+    {
+      "display_name": "Cloud Account",
+      "key": "account_id",
+      "type": "multi-select",
+      "endpoint": "/api/v1/controls/account-ids"
+    },
+    {
+      "display_name": "Labels",
+      "key": "asset__label__name",
+      "type": "multi-select",
+      "endpoint": "/api/v1/labels-mini"
+    },
+    {
+      "display_name": "Repository",
+      "key": "misc__repo",
+      "type": "multi-select",
+      "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo"
+    }
+    ],
+    "widgets": [
+    {
+        "title": "Cloud Findings",
+        "display_title": "Findings by Severity",
+        "description": "This widget provides a quick overview of the failed findings categorized by their severity levels, helping users identify the most critical issues at a glance.",
+        "category": "Findings",
+        "widget_category": "CSPM",
+        "endpoint": "/api/v1/finding-dashboard",
+        "static_filters": {
+        "status": ["Active", "Exception Requested", "In Progress", "Potential", "Waiting for 3rd Party", "Waiting for Verification"],
+        "ignored": "False"
+        },
+        "group_by_fields": [
+        "vulnerability__risk_factor"
+        ],
+        "group_by_order_fields": [
+        "vulnerability__risk_factor"
+        ],
+        "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
+        "dynamic_filters": [],
+        "dashboard_filters": [
+        {
+            "display_name": "Cloud Account",
+            "key": "account_id",
+            "type": "multi-select",
+            "endpoint": "/api/v1/controls/account-ids"
+        },
+        {
+            "display_name": "Labels",
+            "key": "asset__label__name",
+            "type": "multi-select",
+            "endpoint": "/api/v1/labels-mini"
+        }
+        ],
+        "widget_filters": [
+        {
+            "display_name": "Finding Types",
+            "type": "nested",
+            "key": "vulnerability__data_type",
+            "endpoint": "/api/v2/finding-data-types/?category=Cloud%20Findings",
+            "default_values": ["cloudsploit", "prowler", "security-hub"]
+        },
+        {
+            "display_name": "Tags",
+            "type": "single",
+            "key": "tag__name",
+            "endpoint": "/api/v1/widget-filters/tags",
+            "default_values": [
+                "production"
+            ]
+        }
+        ]
+    },
+    {
+        "title": "New Secret Scan Findings Trend",
+        "display_title": "New Secret Scan Findings Trend",
+        "description": "Trend analysis showing daily analysis of the newly discovered secret scan findings in the environment",
+        "category": "Secret Scanning",
+        "widget_category": "ASPM",
+        "endpoint": "/api/v1/finding-dashboard",
+        "static_filters": {
+        "ignored": "False",
+        "vulnerability__data_type": ["secret scanning"]
+        },
+        "group_by_fields": [
+        "date_discovered"
+        ],
+        "group_by_order_fields": [
+        "date_discovered_date"
+        ],
+        "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
+        "frontend_misc": {},
+        "dynamic_filters": [],
+        "dashboard_filters": [
+        {
+            "display_name": "Repository",
+            "key": "misc__repo",
+            "type": "multi-select",
+            "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo"
+        },
+        {
+            "display_name": "Labels",
+            "key": "asset__label__name",
+            "type": "multi-select",
+            "endpoint": "/api/v1/labels-mini"
+        }
+        ],
+        "widget_filters": [
+        {
+            "display_name": "Tags",
+            "type": "single",
+            "key": "tag__name",
+            "endpoint": "/api/v1/widget-filters/tags",
+            "default_values": [
+                "production"
+        ]
+        },
+        {
+            "display_name": "Date Range",
+            "key": ["date_discovered_after", "date_discovered_before"],
+            "type": "date-range",
+            "values": ["last 2 days", "last 7 days", "last 14 days", "last 30 days", "last 60 days"],
+            "default_values": ["last 30 days"]
+        }
+        ]
+    }  
+    ]
+}
+]
