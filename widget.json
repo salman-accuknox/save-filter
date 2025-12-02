@@ -103,5 +103,21 @@
       "default_values": ["last 30 days"]
     }
     ]
-  }
+  },
+  {
+      "title": "Block based Policies with Associated Alerts",
+      "display_title": "Block based Policies with Associated Alerts",
+      "description": "This widget is aimed to show all the block based policies which are of high severity and have alerts associated.",
+      "category": "Cluster",
+      "widget_category": "Runtime Security",
+      "endpoint": "/dashboards/v2/policy-violations/maxalerts-severity",
+      "static_filters": {},
+      "group_by_fields": [],
+      "group_by_order_fields": [],
+      "dynamic_filters": [],
+      "filter_value_endpoint": "",
+      "frontend_misc": {},
+      "dashboard_filters": [],
+      "widget_filters": []      
+    }
 ]
