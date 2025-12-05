@@ -11,19 +11,22 @@
       "display_name": "Cloud Account",
       "key": "account_id",
       "type": "multi-select",
-      "endpoint": "/api/v1/controls/account-ids"
+      "endpoint": "/api/v1/controls/account-ids",
+        "saved_values": ["account1", "account2"]
     },
     {
       "display_name": "Labels",
       "key": "asset__label__name",
       "type": "multi-select",
-      "endpoint": "/api/v1/labels-mini"
+      "endpoint": "/api/v1/labels-mini",
+    "saved_values": ["aws", "dev"]
     },
     {
       "display_name": "Repository",
       "key": "misc__repo",
       "type": "multi-select",
-      "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo"
+      "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo",
+        "saved_values": []
     }
     ],
     "widgets": [
@@ -51,13 +54,15 @@
             "display_name": "Cloud Account",
             "key": "account_id",
             "type": "multi-select",
-            "endpoint": "/api/v1/controls/account-ids"
+            "endpoint": "/api/v1/controls/account-ids",
+            "saved_values": ["account1", "account2"]
         },
         {
             "display_name": "Labels",
             "key": "asset__label__name",
             "type": "multi-select",
-            "endpoint": "/api/v1/labels-mini"
+            "endpoint": "/api/v1/labels-mini",
+            "saved_values": ["dev", "aws"]
         }
         ],
         "widget_filters": [
@@ -66,7 +71,8 @@
             "type": "nested",
             "key": "vulnerability__data_type",
             "endpoint": "/api/v2/finding-data-types/?category=Cloud%20Findings",
-            "default_values": ["cloudsploit", "prowler", "security-hub"]
+            "default_values": ["cloudsploit", "prowler", "security-hub"],
+            "saved_values": ["cloudsploit"]
         },
         {
             "display_name": "Tags",
@@ -75,7 +81,8 @@
             "endpoint": "/api/v1/widget-filters/tags",
             "default_values": [
                 "production"
-            ]
+            ],
+            "saved_values": ["dev"]
         }
         ]
     },
@@ -104,13 +111,15 @@
             "display_name": "Repository",
             "key": "misc__repo",
             "type": "multi-select",
-            "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo"
+            "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo",
+            "saved_values": []
         },
         {
             "display_name": "Labels",
             "key": "asset__label__name",
             "type": "multi-select",
-            "endpoint": "/api/v1/labels-mini"
+            "endpoint": "/api/v1/labels-mini",
+            "saved_values": []
         }
         ],
         "widget_filters": [
@@ -121,7 +130,8 @@
             "endpoint": "/api/v1/widget-filters/tags",
             "default_values": [
                 "production"
-        ]
+            ]
+            "saved_values": []
         },
         {
             "display_name": "Date Range",
@@ -129,6 +139,7 @@
             "type": "date-range",
             "values": ["last 2 days", "last 7 days", "last 14 days", "last 30 days", "last 60 days"],
             "default_values": ["last 30 days"]
+            "saved_values": []
         }
         ]
     }  
