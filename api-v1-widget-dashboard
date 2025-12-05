@@ -54,15 +54,13 @@
             "display_name": "Cloud Account",
             "key": "account_id",
             "type": "multi-select",
-            "endpoint": "/api/v1/controls/account-ids",
-            "saved_values": ["account1", "account2"]
+            "endpoint": "/api/v1/controls/account-ids"
         },
         {
             "display_name": "Labels",
             "key": "asset__label__name",
             "type": "multi-select",
-            "endpoint": "/api/v1/labels-mini",
-            "saved_values": ["dev", "aws"]
+            "endpoint": "/api/v1/labels-mini"
         }
         ],
         "widget_filters": [
@@ -111,15 +109,13 @@
             "display_name": "Repository",
             "key": "misc__repo",
             "type": "multi-select",
-            "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo",
-            "saved_values": []
+            "endpoint": "/api/v1/finding-dashboard?group_by=misc__repo"
         },
         {
             "display_name": "Labels",
             "key": "asset__label__name",
             "type": "multi-select",
-            "endpoint": "/api/v1/labels-mini",
-            "saved_values": []
+            "endpoint": "/api/v1/labels-mini"
         }
         ],
         "widget_filters": [
