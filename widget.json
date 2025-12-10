@@ -21,7 +21,7 @@
     "frontend_misc": {
       "config_name": "5G Security Findings"
     },
-    "config_name": "5G Security Findings"
+    "config_name": "Cloud Findings"
     "dashboard_filters": [
     {
         "display_name": "Cloud Account",
