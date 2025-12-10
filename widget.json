@@ -18,6 +18,10 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "dynamic_filters": [],
+    "frontend_misc": {
+      "config_name": "5G Security Findings"
+    },
+    "config_name": "5G Security Findings"
     "dashboard_filters": [
     {
         "display_name": "Cloud Account",
