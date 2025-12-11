@@ -12,7 +12,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+    {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+    },
+    {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+    }
+    ],
     "widget_filters": []
   },
   {
