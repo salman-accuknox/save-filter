@@ -13,18 +13,18 @@
     "filter_value_endpoint": "",
     "frontend_misc": {},
     "dashboard_filters": [
-    {
+      {
         "display_name": "Cluster",
         "key": "ClusterID",
         "type": "multi-select",
         "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
-    },
-    {
+      },
+      {
         "display_name": "Labels",
         "key": "asset__label__name",
         "type": "multi-select",
         "endpoint": "/api/v1/labels-mini"
-    }
+      }
     ],
     "widget_filters": []
   },
@@ -41,7 +41,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -57,7 +70,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -73,7 +99,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -89,7 +128,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -105,7 +157,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -121,7 +186,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -137,7 +215,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -153,7 +244,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -169,7 +273,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -203,7 +320,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -219,7 +349,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -235,7 +378,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -270,7 +426,20 @@
     "frontend_misc": {
       "key": "value"
     },
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -309,7 +478,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -325,7 +507,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -360,7 +555,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -393,7 +601,20 @@
     "frontend_misc": {
       "": ""
     },
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -419,7 +640,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -435,7 +669,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -471,7 +718,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -487,7 +747,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -517,7 +790,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -549,7 +835,20 @@
         "Critical": "#FCBA03"
       }
     },
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -565,7 +864,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -601,7 +913,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -636,7 +961,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -672,7 +1010,20 @@
     ],
     "filter_value_endpoint": "/api/v1/findings/filter-options/",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -688,7 +1039,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -704,7 +1068,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -741,7 +1118,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -771,7 +1161,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -806,7 +1209,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -840,7 +1256,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -856,7 +1285,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -883,7 +1325,20 @@
     ],
     "filter_value_endpoint": "/api/v1/finding-dashboard/filter-values",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -925,7 +1380,20 @@
         "Critical": "#FCBA03"
       }
     },
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -2974,7 +3442,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -2990,7 +3471,20 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      },
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "multi-select",
+        "endpoint": "/api/v1/labels-mini"
+      }
+    ],
     "widget_filters": []
   },
   {
