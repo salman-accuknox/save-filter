@@ -12,7 +12,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -28,7 +35,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -44,7 +58,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -60,7 +81,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -76,7 +104,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -92,7 +127,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -108,7 +150,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -124,7 +173,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -140,7 +196,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -156,7 +219,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -3312,7 +3382,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
@@ -3328,7 +3405,14 @@
     "dynamic_filters": [],
     "filter_value_endpoint": "",
     "frontend_misc": {},
-    "dashboard_filters": [],
+    "dashboard_filters": [
+      {
+        "display_name": "Cluster",
+        "key": "ClusterID",
+        "type": "multi-select",
+        "endpoint": "/cm/api/v1/cluster-management/clusters-in-workspace-filter"
+      }
+    ],
     "widget_filters": []
   },
   {
