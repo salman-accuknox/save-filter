@@ -89,22 +89,20 @@
     }
     ],
     "widget_filters": [
-    {
-      "display_name": "Tags",
-      "type": "single",
-      "key": "tag__name",
-      "endpoint": "/api/v1/widget-filters/tags",
-      "default_values": [
-        "production"
-    ]
-    },
-    {
-      "display_name": "Date Range",
-      "key": ["date_discovered_after", "date_discovered_before"],
-      "type": "date-range",
-      "values": ["last 2 days", "last 7 days", "last 14 days", "last 30 days", "last 60 days"],
-      "default_values": ["last 30 days"]
-    }
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "single",
+        "endpoint": "/api/v1/labels-mini",
+        "default_values": []
+      },
+      {
+        "display_name": "Date Range",
+        "key": ["date_discovered_after", "date_discovered_before"],
+        "type": "date-range",
+        "values": ["last 2 days", "last 7 days", "last 14 days", "last 30 days", "last 60 days"],
+        "default_values": ["last 30 days"]
+      }
     ]
   },
   {
