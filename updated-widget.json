@@ -1866,7 +1866,15 @@
         "endpoint": "/api/v1/labels-mini"
       }
     ],
-    "widget_filters": []
+    "widget_filters": [
+      {
+        "display_name": "Labels",
+        "key": "asset__label__name",
+        "type": "single",
+        "endpoint": "/api/v1/labels-mini"
+        "default_values": []
+      }
+    ]
   },
   {
     "title": "Findings",
