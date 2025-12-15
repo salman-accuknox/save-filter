@@ -40,21 +40,19 @@
       "widget_filters": [
       {
         "display_name": "Finding Types",
-        "type": "nested",
+        "type": "single",
         "key": "vulnerability__data_type",
-        "endpoint": "/api/v2/finding-data-types/?category=Cloud%20Findings",
-        "default_values": ["cloudsploit", "prowler", "security-hub"]
+        "endpoint": "/api/v1/finding-dashboard/filter-values?filter_field=vulnerability__data_type&vulnerability__data_type=cloudsploit|securityhub|prowler",
+        "default_values": ["cloudsploit", "securityhub"]
       },
       {
-        "display_name": "Tags",
+        "display_name": "Labels",
+        "key": "asset__label__name",
         "type": "single",
-        "key": "tag__name",
-        "endpoint": "/api/v1/widget-filters/tags",
-        "default_values": [
-          "production"
-          ]
+        "endpoint": "/api/v1/labels-mini",
+        "default_values": []
       }
-      ]
+    ]
     },
     {
       "title": "New Secret Scan Findings Trend",
@@ -92,13 +90,11 @@
       ],
       "widget_filters": [
       {
-        "display_name": "Tags",
+        "display_name": "Labels",
+        "key": "asset__label__name",
         "type": "single",
-        "key": "tag__name",
-        "endpoint": "/api/v1/widget-filters/tags",
-        "default_values": [
-        "production"
-      ]
+        "endpoint": "/api/v1/labels-mini",
+        "default_values": []
       },
       {
         "display_name": "Date Range",
