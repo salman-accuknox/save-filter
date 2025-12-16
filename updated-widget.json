@@ -1604,7 +1604,7 @@
         "display_name": "Labels",
         "key": "asset__label__name",
         "type": "single",
-        "endpoint": "/api/v1/labels-mini",
+        "endpoint": "/api/v1/finding-dashboard/filter-values?filter_field=asset__label__name",
         "default_values": []
       },
       {
