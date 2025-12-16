@@ -1926,13 +1926,13 @@
       {
         "display_name": "Cloud Account",
         "key": "misc__cloud_account",
-        "type": "multi-select",
+        "type": "group",
         "endpoint": "/api/v1/controls/account-ids"
       },
       {
         "display_name": "Labels",
         "key": "asset__label__name",
-        "type": "multi-select",
+        "type": "multi",
         "endpoint": "/api/v1/labels-mini"
       }
     ],
